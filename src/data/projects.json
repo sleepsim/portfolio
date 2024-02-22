@@ -1,0 +1,43 @@
+[
+  {
+    "id": "quizlet",
+    "title": "Project 1",
+    "description": "This is the description of project 1.",
+    "image": "src/assets/quizlet.png",
+    "github": "https://github.com/user/project1",
+    "category": "front",
+    "featured": true
+  },
+  {
+    "id": "quizlet2",
+    "title": "Project 2",
+    "description": "This is the description of project 2.",
+    "image": "src/assets/quizlet.png",
+    "github": "https://github.com/user/project2",
+    "featured": true
+  },
+  {
+    "id": "quizlet3",
+    "title": "Project 3",
+    "description": "This is the description of project 3.",
+    "image": "src/assets/quizlet.png",
+    "github": "https://github.com/user/project3",
+    "featured": true
+  },
+  {
+    "id": "quizlet3",
+    "title": "Project 3",
+    "description": "This is the description of project 3.",
+    "image": "src/assets/quizlet.png",
+    "github": "https://github.com/user/project3",
+    "featured": false
+  },
+  {
+    "id": "quizlet6",
+    "title": "Project 6",
+    "description": "This is the description of project 3.",
+    "image": "src/assets/quizlet.png",
+    "github": "https://github.com/user/project3",
+    "featured": true
+  }
+]

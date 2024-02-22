@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap");
+.social-icon-animate ul {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.social-icon-animate ul li {
+  list-style: none;
+}
+.social-icon-animate ul li a {
+  display: block;
+  position: relative;
+  width: 4rem;
+  height: 100%;
+  line-height: 4rem;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: lightgray;
+  margin: 0;
+  transition: 0.5s;
+}
+.social-icon-animate ul li a span {
+  position: absolute;
+  transition: transform 0.5s;
+}
+.social-icon-animate ul li a span:nth-child(1) {
+  width: 100%;
+  height: 3px;
+  opacity: 0;
+  background: lightgray;
+  top: 0;
+  left: 0;
+  transform-origin: right;
+}
+.social-icon-animate ul li a span:nth-child(3) {
+  width: 100%;
+  height: 3px;
+  opacity: 0;
+  background: lightgray;
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+}
+.social-icon-animate ul li a span:nth-child(2) {
+  width: 3px;
+  height: 100%;
+  background: #404040;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transform-origin: bottom;
+}
+.social-icon-animate ul li a span:nth-child(4) {
+  width: 3px;
+  height: 100%;
+  background: #404040;
+  top: 0;
+  right: 0;
+  transform: scale(0);
+  transform-origin: top;
+}
+.social-icon-animate ul li a:hover span:nth-child(1) {
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+.social-icon-animate ul li a:hover span:nth-child(3) {
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+.social-icon-animate ul li a:hover span:nth-child(2) {
+  transform: scale(1);
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+.social-icon-animate ul li a:hover span:nth-child(4) {
+  transform: scale(1);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+}
+.social-icon-animate ul li a:hover:nth-child(3) {
+  color: #c32aa3;
+}
+.social-icon-animate ul li a:hover:nth-child(4) {
+  color: #dd4b39;
+}
+.social-icon-animate ul li a .twitter {
+  color: #1da1f2;
+}
+.social-icon-animate .github:hover {
+  color: #6e5494;
+}
+.social-icon-animate .github:hover span {
+  background: #6e5494;
+}
+.social-icon-animate .linkedIn:hover {
+  color: #0a66c2;
+}
+.social-icon-animate .linkedIn:hover span {
+  background: #0a66c2;
+}
+.social-icon-animate .instagram:hover {
+  color: #6e5494;
+}
+.social-icon-animate .instagram:hover span {
+  background: #6e5494;
+}
+.social-icon-animate .google:hover {
+  color: var(--orange-accent);
+}
+.social-icon-animate .google:hover span {
+  background: var(--orange-accent);
+}
+
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+.hover img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+  border-radius: 0.25rem;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover-content {
+  position: relative;
+  z-index: 99;
+}
+
+.hover-1 {
+  color: var(--white-accent);
+}
+.hover-1 img {
+  width: 105%;
+  position: absolute;
+  top: 0;
+  left: -5%;
+  transition: all 0.6s;
+}
+.hover-1 .hover-overlay {
+  width: 95%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  transition: all 0.6s;
+}
+.hover-1:hover .hover-overlay {
+  width: 100%;
+  opacity: 0;
+}
+.hover-1:hover .hover-1-content {
+  width: 100%;
+  left: 0;
+  bottom: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+}
+.hover-1:hover .hover-1-description {
+  opacity: 1;
+  transform: none;
+}
+.hover-1:hover img {
+  left: 0;
+}
+
+.hover-1-content {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: -5%;
+  z-index: 99;
+  transition: all 0.6s;
+}
+
+.hover-1-description {
+  transform: translateY(0.5rem);
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.hover-padding {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.sidebar {
+  height: 100%;
+  width: 12rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 40vh;
+  padding-left: 1rem;
+  font-family: "Mulish", Arial, sans-serif;
+}
+.sidebar a {
+  display: block;
+  border-radius: 1rem 0 0 1rem;
+  filter: drop-shadow(0 0 0.4rem rgb(0, 0, 0));
+}
+
+:root {
+  --bg-color: rgb(22, 25, 31);
+  --nav-color: rgb(15, 17, 22);
+  --black-accent: rgb(30, 30, 30);
+  --white-accent: rgb(200, 200, 200);
+  --orange-accent: rgb(241, 137, 5);
+  --purple-accent: rgb(100, 100, 255);
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--white-accent);
+}
