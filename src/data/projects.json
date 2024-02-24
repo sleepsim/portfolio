@@ -20,11 +20,11 @@
     "featured": true
   },
   {
-    "id": "quizlet3",
-    "title": "code3",
-    "lang": "Kotlin + Java",
+    "id": "portfolioweb",
+    "title": "This Website",
+    "lang": "React (Vite), Bootstrap",
     "description": "This is the description of project 3.",
-    "image": "src/assets/quizlet.png",
+    "image": "src/assets/portweb.png",
     "github": "https://github.com/user/project3",
     "category": "code",
     "featured": true

@@ -20,7 +20,7 @@ function App() {
       <Sidebar />
       <Navbar />
 
-      <div className="container mt-3">
+      <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
