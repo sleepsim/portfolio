@@ -1,9 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap");
+.social-icon-animate {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  padding-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .social-icon-animate ul {
-  position: absolute;
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .social-icon-animate ul li {
   list-style: none;
@@ -202,22 +213,72 @@
   padding-right: 3rem;
 }
 
-.sidebar {
-  height: 100%;
-  width: 12rem;
-  position: fixed;
-  z-index: 1;
+.animated-button-purple a {
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: var(--purple-accent);
+  border: 0.3rem var(--purple-accent) solid;
+  position: relative;
+  transition: all 0.35s;
+}
+.animated-button-purple a span {
+  position: relative;
+  z-index: 2;
+}
+.animated-button-purple a:after {
+  position: absolute;
+  content: "";
   top: 0;
   left: 0;
-  overflow-x: hidden;
-  padding-top: 40vh;
-  padding-left: 1rem;
-  font-family: "Mulish", Arial, sans-serif;
+  width: 0;
+  height: 100%;
+  background: var(--purple-accent);
+  transition: all 0.35s;
 }
-.sidebar a {
+.animated-button-purple a:hover {
+  color: #fff;
+}
+.animated-button-purple a:hover:after {
+  width: 100%;
+}
+
+.animated-button-orange a {
   display: block;
-  border-radius: 1rem 0 0 1rem;
-  filter: drop-shadow(0 0 0.4rem rgb(0, 0, 0));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: var(--orange-accent);
+  border: 0.3rem var(--orange-accent) solid;
+  position: relative;
+  transition: all 0.35s;
+}
+.animated-button-orange a span {
+  position: relative;
+  z-index: 2;
+}
+.animated-button-orange a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--orange-accent);
+  transition: all 0.35s;
+}
+.animated-button-orange a:hover {
+  color: #fff;
+}
+.animated-button-orange a:hover:after {
+  width: 100%;
 }
 
 :root {
@@ -232,5 +293,17 @@
 body {
   font-family: "Jost", sans-serif;
   background-color: var(--bg-color);
+  color: var(--white-accent);
+}
+
+.text-orange {
+  color: var(--orange-accent);
+}
+
+.text-purple {
+  color: var(--purple-accent);
+}
+
+.text-white {
   color: var(--white-accent);
 }

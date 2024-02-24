@@ -1,7 +1,7 @@
 [
   {
     "id": "quizlet",
-    "title": "Project 1",
+    "title": "code1",
     "description": "This is the description of project 1.",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project1",
@@ -10,34 +10,47 @@
   },
   {
     "id": "quizlet2",
-    "title": "Project 2",
+    "title": "code2",
     "description": "This is the description of project 2.",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project2",
+    "category": "front",
     "featured": true
   },
   {
     "id": "quizlet3",
-    "title": "Project 3",
+    "title": "code3",
     "description": "This is the description of project 3.",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project3",
+    "category": "front",
     "featured": true
   },
   {
     "id": "quizlet3",
-    "title": "Project 3",
+    "title": "design1",
     "description": "This is the description of project 3.",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project3",
+    "category": "back",
     "featured": false
   },
   {
     "id": "quizlet6",
-    "title": "Project 6",
+    "title": "design2",
     "description": "This is the description of project 3.",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project3",
+    "category": "back",
+    "featured": true
+  },
+  {
+    "id": "quizlet7",
+    "title": "design2",
+    "description": "This is the description of project 3.",
+    "image": "src/assets/quizlet.png",
+    "github": "https://github.com/user/project3",
+    "category": "back",
     "featured": true
   }
 ]

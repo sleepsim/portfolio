@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-sm navbar-dark">
       <div className="collapse navbar-collapse">
         <ul className="navbar-nav ms-auto me-5">
           <li className="nav-item">

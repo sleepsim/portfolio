@@ -5,7 +5,10 @@ export const Home = () => {
   return (
     <>
       <Jumbotron />
-      <TileContainer />
+      <section id="projects">
+        <TileContainer category="front" />
+        <TileContainer category="back" />
+      </section>
     </>
   );
 };
