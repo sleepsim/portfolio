@@ -1,34 +1,38 @@
 [
   {
     "id": "quizlet",
-    "title": "code1",
-    "description": "This is the description of project 1.",
+    "title": "SFU Quizlet",
+    "lang": "Kotlin, Android Studio",
+    "description": "Flashcards app specialized for SFU",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project1",
-    "category": "front",
+    "category": "code",
     "featured": true
   },
   {
-    "id": "quizlet2",
-    "title": "code2",
-    "description": "This is the description of project 2.",
-    "image": "src/assets/quizlet.png",
+    "id": "badmintoninfo",
+    "title": "badmintonInfo",
+    "lang": "XAMPP Stack",
+    "description": "PHP website with MySQL database",
+    "image": "src/assets/badmintonInfo.png",
     "github": "https://github.com/user/project2",
-    "category": "front",
+    "category": "code",
     "featured": true
   },
   {
     "id": "quizlet3",
     "title": "code3",
+    "lang": "Kotlin + Java",
     "description": "This is the description of project 3.",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project3",
-    "category": "front",
+    "category": "code",
     "featured": true
   },
   {
     "id": "quizlet3",
     "title": "design1",
+    "lang": "Kotlin + Java",
     "description": "This is the description of project 3.",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project3",
@@ -38,6 +42,7 @@
   {
     "id": "quizlet6",
     "title": "design2",
+    "lang": "Kotlin + Java",
     "description": "This is the description of project 3.",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project3",
@@ -47,6 +52,7 @@
   {
     "id": "quizlet7",
     "title": "design2",
+    "lang": "Kotlin + Java",
     "description": "This is the description of project 3.",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project3",
