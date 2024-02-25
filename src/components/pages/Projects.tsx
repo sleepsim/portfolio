@@ -27,7 +27,7 @@ const LoadProject = (input: string | undefined) => {
           <h1 className="fw-bold text-orange">{project.title}</h1>
           <div className="col-6 py-4">
             <img
-              src={"/src/assets/" + project.image}
+              src={"/assets/" + project.image}
               alt=""
               className="img-fluid"
             />

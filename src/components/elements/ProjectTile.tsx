@@ -24,7 +24,7 @@ export const ProjectTile = ({ id, title, description, image, lang }: Props) => {
             </p>
           </div>
           <img
-            src={"src/assets/" + image}
+            src={"/assets/" + image}
             alt={title}
             className="img-fluid h-100"
           />
