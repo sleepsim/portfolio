@@ -14,7 +14,6 @@ import { Home } from "./components/pages/Home";
 import { About } from "./components/pages/About";
 import { Projects } from "./components/pages/Projects";
 import { NotFound } from "./components/pages/NotFound";
-import { ReturnToHome } from "./components/elements/ReturnToHome";
 import { Resume } from "./components/pages/Resume";
 import { Contact } from "./components/pages/Contact";
 import ScrollToTop from "./components/elements/ScrollToTop";

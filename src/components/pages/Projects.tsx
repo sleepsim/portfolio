@@ -20,8 +20,6 @@ ProjectsJson.forEach((item) => {
 });
 
 const LoadProject = (input: string | undefined) => {
-  const finder = ProjectInfo.find((item) => item.id === input);
-
   return ProjectInfo.filter((project) => project.id === input).map(
     (project) => (
       <div className="p-3">
