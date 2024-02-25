@@ -16,6 +16,7 @@ import { Projects } from "./components/pages/Projects";
 import { NotFound } from "./components/pages/NotFound";
 import { ReturnToHome } from "./components/elements/ReturnToHome";
 import { Resume } from "./components/pages/Resume";
+import { Contact } from "./components/pages/Contact";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <Route index element={<NotFound />}></Route>
           </Route>
           <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
