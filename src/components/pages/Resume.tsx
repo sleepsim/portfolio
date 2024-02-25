@@ -92,6 +92,14 @@ export const Resume = () => {
         <p className="fs-4">Earls Kitchen and Bar</p>
         <p>Line Cook</p>
       </div>
+
+      <div className="animated-button-orange my-3">
+        <Link to="/">
+          <span className="">
+            return home<i className="bi bi-chevron-right"></i>
+          </span>
+        </Link>
+      </div>
     </div>
   );
 };

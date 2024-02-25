@@ -51,7 +51,7 @@ export const Jumbotron = () => {
           <div className="col-3">
             {GenerateList(Libraries, "libraries/frameworks")}
           </div>
-          <div className="col-3">{GenerateList(Design, "design Tools")}</div>
+          <div className="col-3">{GenerateList(Design, "design tools")}</div>
         </div>
       </div>
     </>

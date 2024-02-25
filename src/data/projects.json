@@ -17,10 +17,10 @@
     "lang": "React (Vite), TypeScript, Bootstrap",
     "description": "my old static and current react website",
     "image": "portweb.png",
-    "github": "https://github.com/user/project3",
+    "github": "https://github.com/sleepsim/portfolio",
     "youtube": "",
     "category": "code",
-    "overview": "This website is supposed to be the culmination of everything I've learned so far, I made it using React (Vite) and Bootstrap. This website is a remake and upgrade of my old website LINK HERE that I made during reading break in an effort to learn React. ",
+    "overview": "This website is supposed to be the culmination of everything I've learned so far, I made it using React (Vite) and Bootstrap. This website is a remake and upgrade of my old website that I made during reading break in an effort to learn React. ",
     "featured": true
   },
   {
@@ -38,13 +38,13 @@
   {
     "id": "quizlet",
     "title": "SFU Quizlet",
-    "lang": "Kotlin, Android Studio",
+    "lang": "Kotlin, Android Studio, Firebase",
     "description": "Flashcards app specialized for SFU",
     "image": "quizlet.png",
     "github": "https://github.com/megarage9000/SFU_Quizlet",
-    "youtube": "",
+    "youtube": "https://www.youtube.com/embed/Vcj1u3bAX9A?si=Dd6WuRh2Q_1IWz6r",
     "category": "code",
-    "overview": "test",
+    "overview": "SFU Quizlet was a final project for my Android Development class, I was in charge of creating and designing the front page as well as the course list. The app was written in Kotlin, and firebase was used for our database that contained all the courses, questions/answers, as well as user data.",
     "featured": true
   },
   {

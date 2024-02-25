@@ -17,6 +17,7 @@ import { NotFound } from "./components/pages/NotFound";
 import { ReturnToHome } from "./components/elements/ReturnToHome";
 import { Resume } from "./components/pages/Resume";
 import { Contact } from "./components/pages/Contact";
+import ScrollToTop from "./components/elements/ScrollToTop";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
       <Navbar />
 
       <div className="container">
+        <ScrollToTop />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
