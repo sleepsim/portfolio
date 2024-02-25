@@ -64,7 +64,7 @@ const LoadProject = (input: string | undefined) => {
               ></iframe>
             ) : (
               <img
-                src={"../src/assets/" + project.youtube}
+                src={project.youtube}
                 className="img-fluid w-75"
                 alt="gif demo"
               />
