@@ -20,7 +20,7 @@
     "github": "https://github.com/sleepsim/portfolio",
     "youtube": "",
     "category": "code",
-    "overview": "This website is supposed to be the culmination of everything I've learned so far, I made it using React (Vite) and Bootstrap. This website is a remake and upgrade of my old website that I made during reading break in an effort to learn React. ",
+    "overview": "This website is supposed to be the culmination of everything I've learned so far, I made it using React (Vite) and Bootstrap. This website is a remake and upgrade of my old website that I made during reading break in an effort to learn React. My old website can be acessed through https://sleepsim.github.io/portfolio-old/",
     "featured": true
   },
   {
@@ -29,10 +29,10 @@
     "lang": "JavaScript",
     "description": "converts shorts to full video player",
     "image": "shortsconvert.png",
-    "github": "https://github.com/user/project1",
-    "youtube": "shortsconvert.gif",
+    "github": "https://github.com/sleepsim/yt-shortconverter",
+    "youtube": "/assets/shortsconvert.gif",
     "category": "code",
-    "overview": "test",
+    "overview": "Sometime around last year, YouTube introduced YouTube Shorts, a vertical video format that’s supposed to emulate popular video sites like Tik-Tok and Instagram Reels. The problem was that it was turning some short videos that were not meant to be shorts into YT Shorts. YT shorts gives you no control over playback, sound is only a toggle, and the video is fit into a vertical frame which was super annoying so I made this extension which I still use today",
     "featured": true
   },
   {
