@@ -255,6 +255,9 @@
   width: 100%;
 }
 
+.animated-button-orange {
+  width: 15rem;
+}
 .animated-button-orange a {
   display: block;
   padding-top: 1rem;
@@ -403,6 +406,10 @@ ul {
   list-style-type: none;
 }
 
+.disc-ul {
+  list-style: disc;
+}
+
 .text-orange {
   color: var(--orange-accent);
 }
@@ -438,6 +445,6 @@ ul {
 }
 
 .project-line {
-  border-top: 0.5rem var(--purple-accent) solid;
+  border-top: 0.2rem var(--orange-accent) solid;
   border-radius: 3rem 1rem 0rem 2rem;
 }

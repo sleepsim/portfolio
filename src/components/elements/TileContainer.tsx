@@ -23,7 +23,7 @@ interface Props {
 const LoadProjects2 = (category: string) => {
   if (category == "all") {
     return ProjectInfo.map((project) => (
-      <div className="col col-lg-4">
+      <div key={project.id} className="col col-lg-4">
         <ProjectTile
           id={project.id}
           title={project.title}
@@ -37,7 +37,7 @@ const LoadProjects2 = (category: string) => {
     return ProjectInfo.filter((project) => project.category == category).map(
       (project) => (
         <>
-          <div className="col col-lg-4">
+          <div key={project.id} className="col col-lg-4">
             <ProjectTile
               id={project.id}
               title={project.title}
@@ -56,7 +56,7 @@ const TileContainer = ({ category }: Props) => {
   return (
     <div className="container p-3">
       <h2 className="mb-3 fs-3 fw-bold text-purple">.{category}-projects</h2>
-      <div className="row justify-content-start no-wrap my-3">
+      <div key={category} className="row justify-content-start no-wrap my-3">
         {LoadProjects2(category)}
       </div>
     </div>

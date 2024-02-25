@@ -18,6 +18,9 @@ body {
 ul{
   list-style-type: none;
 }
+.disc-ul{
+  list-style: disc;
+}
 
 // Text 
 .text-orange{
@@ -58,6 +61,6 @@ ul{
 
 // Misc Design
 .project-line{
-  border-top: 0.5rem var(--purple-accent) solid;
+  border-top: 0.2rem var(--orange-accent) solid;
   border-radius: 3rem 1rem 0rem 2rem;
 }

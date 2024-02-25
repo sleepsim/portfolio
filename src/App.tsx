@@ -14,6 +14,8 @@ import { Home } from "./components/pages/Home";
 import { About } from "./components/pages/About";
 import { Projects } from "./components/pages/Projects";
 import { NotFound } from "./components/pages/NotFound";
+import { ReturnToHome } from "./components/elements/ReturnToHome";
+import { Resume } from "./components/pages/Resume";
 
 function App() {
   return (
@@ -25,7 +27,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/">
+            <Route path=":id" element={<Projects />}></Route>
+            <Route index element={<NotFound />}></Route>
+          </Route>
+          <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

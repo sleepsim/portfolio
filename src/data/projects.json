@@ -2,21 +2,25 @@
   {
     "id": "badmintoninfo",
     "title": "badmintonInfo website",
-    "lang": "XAMPP Stack",
+    "lang": "XAMPP Stack, (PHP, MySQL)",
     "description": "PHP website with MySQL database",
-    "image": "src/assets/badmintonInfo.png",
-    "github": "https://github.com/user/project2",
+    "image": "badmintonInfo.png",
+    "github": "https://github.com/sleepsim/badmintonInfo",
+    "youtube": "https://www.youtube.com/embed/4HSiGyOfmzY?si=vI-X_W6mtjvtr2xi",
     "category": "code",
+    "overview": "badmintonInfo is a dynamic website that showcases badminton gear and professional players that use them. The site utilized XAMPP for local development environment, PHP for server-side scripting, and MySQL for database management. UI wise, this was the first time I designed a site using Bootstrap for clean, easy, and reusable code.",
     "featured": true
   },
   {
     "id": "portfolioweb",
     "title": "Portfolio websites",
-    "lang": "React (Vite), Bootstrap",
+    "lang": "React (Vite), TypeScript, Bootstrap",
     "description": "my old static and current react website",
-    "image": "src/assets/portweb.png",
+    "image": "portweb.png",
     "github": "https://github.com/user/project3",
+    "youtube": "",
     "category": "code",
+    "overview": "This website, which I made using React (Vite) and Bootstrap. This website is a remake and upgrade of my old website LINK HERE that I made during reading break in an effort to learn React. ",
     "featured": true
   },
   {
@@ -24,9 +28,11 @@
     "title": "YouTube shorts converter",
     "lang": "JavaScript",
     "description": "converts shorts to full video player",
-    "image": "src/assets/shortsconvert.png",
+    "image": "shortsconvert.png",
     "github": "https://github.com/user/project1",
+    "youtube": "shortsconvert.gif",
     "category": "code",
+    "overview": "test",
     "featured": true
   },
   {
@@ -34,9 +40,11 @@
     "title": "SFU Quizlet",
     "lang": "Kotlin, Android Studio",
     "description": "Flashcards app specialized for SFU",
-    "image": "src/assets/quizlet.png",
-    "github": "https://github.com/user/project1",
+    "image": "quizlet.png",
+    "github": "https://github.com/megarage9000/SFU_Quizlet",
+    "youtube": "",
     "category": "code",
+    "overview": "test",
     "featured": true
   },
   {
@@ -44,9 +52,11 @@
     "title": "design1",
     "lang": "Kotlin + Java",
     "description": "This is the description of project 3.",
-    "image": "src/assets/quizlet.png",
+    "image": "quizlet.png",
     "github": "https://github.com/user/project3",
+    "youtube": "",
     "category": "game",
+    "overview": "test",
     "featured": false
   },
   {
@@ -54,9 +64,11 @@
     "title": "design2",
     "lang": "Kotlin + Java",
     "description": "This is the description of project 3.",
-    "image": "src/assets/quizlet.png",
+    "image": "quizlet.png",
     "github": "https://github.com/user/project3",
+    "youtube": "",
     "category": "game",
+    "overview": "test",
     "featured": true
   },
   {
@@ -64,9 +76,11 @@
     "title": "design2",
     "lang": "Kotlin + Java",
     "description": "This is the description of project 3.",
-    "image": "src/assets/quizlet.png",
+    "image": "quizlet.png",
     "github": "https://github.com/user/project3",
+    "youtube": "",
     "category": "game",
+    "overview": "test",
     "featured": true
   }
 ]

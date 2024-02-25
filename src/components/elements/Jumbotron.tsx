@@ -13,7 +13,7 @@ function GenerateList(arr: string[], title: string) {
       <p className="fs-6 fw-bold">{title}:</p>
       <ul className="ps-3">
         {arr.map((item) => (
-          <li>{item}</li>
+          <li key={item}>{item}</li>
         ))}
       </ul>
     </>
@@ -51,7 +51,7 @@ export const Jumbotron = () => {
           <div className="col-3">
             {GenerateList(Libraries, "libraries/frameworks")}
           </div>
-          <div className="col-3">{GenerateList(Design, "Design Tools")}</div>
+          <div className="col-3">{GenerateList(Design, "design Tools")}</div>
         </div>
       </div>
     </>

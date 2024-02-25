@@ -47,7 +47,7 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse d-lg-flex">
             <a
               className="navbar-brand me-5 col-4 cedarville-cursive fs-1"
-              href="#"
+              href="/"
             >
               p.a.
             </a>

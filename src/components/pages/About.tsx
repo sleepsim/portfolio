@@ -1,5 +1,3 @@
-import { Link, Route } from "react-router-dom";
-
 export const About = () => {
   return (
     <div className="p-3 rounded-3 container sm">

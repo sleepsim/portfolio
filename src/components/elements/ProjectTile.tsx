@@ -23,7 +23,11 @@ export const ProjectTile = ({ id, title, description, image, lang }: Props) => {
               <em>{description}</em>
             </p>
           </div>
-          <img src={image} alt={title} className="img-fluid h-100" />
+          <img
+            src={"src/assets/" + image}
+            alt={title}
+            className="img-fluid h-100"
+          />
         </div>
         <p className="mt-2 ms-2 fs-5">{title}</p>
       </Link>
