@@ -1,5 +1,35 @@
 [
   {
+    "id": "badmintoninfo",
+    "title": "badmintonInfo website",
+    "lang": "XAMPP Stack",
+    "description": "PHP website with MySQL database",
+    "image": "src/assets/badmintonInfo.png",
+    "github": "https://github.com/user/project2",
+    "category": "code",
+    "featured": true
+  },
+  {
+    "id": "portfolioweb",
+    "title": "Portfolio websites",
+    "lang": "React (Vite), Bootstrap",
+    "description": "my old static and current react website",
+    "image": "src/assets/portweb.png",
+    "github": "https://github.com/user/project3",
+    "category": "code",
+    "featured": true
+  },
+  {
+    "id": "shortsconverter",
+    "title": "YouTube shorts converter",
+    "lang": "JavaScript",
+    "description": "converts shorts to full video player",
+    "image": "src/assets/shortsconvert.png",
+    "github": "https://github.com/user/project1",
+    "category": "code",
+    "featured": true
+  },
+  {
     "id": "quizlet",
     "title": "SFU Quizlet",
     "lang": "Kotlin, Android Studio",
@@ -10,33 +40,13 @@
     "featured": true
   },
   {
-    "id": "badmintoninfo",
-    "title": "badmintonInfo",
-    "lang": "XAMPP Stack",
-    "description": "PHP website with MySQL database",
-    "image": "src/assets/badmintonInfo.png",
-    "github": "https://github.com/user/project2",
-    "category": "code",
-    "featured": true
-  },
-  {
-    "id": "portfolioweb",
-    "title": "This Website",
-    "lang": "React (Vite), Bootstrap",
-    "description": "This is the description of project 3.",
-    "image": "src/assets/portweb.png",
-    "github": "https://github.com/user/project3",
-    "category": "code",
-    "featured": true
-  },
-  {
-    "id": "quizlet3",
+    "id": "",
     "title": "design1",
     "lang": "Kotlin + Java",
     "description": "This is the description of project 3.",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project3",
-    "category": "back",
+    "category": "game",
     "featured": false
   },
   {
@@ -46,7 +56,7 @@
     "description": "This is the description of project 3.",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project3",
-    "category": "back",
+    "category": "game",
     "featured": true
   },
   {
@@ -56,7 +66,7 @@
     "description": "This is the description of project 3.",
     "image": "src/assets/quizlet.png",
     "github": "https://github.com/user/project3",
-    "category": "back",
+    "category": "game",
     "featured": true
   }
 ]

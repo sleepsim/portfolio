@@ -82,7 +82,7 @@ export const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item mx-3">
-                  <Link className="nav-link" to="/#projects">
+                  <Link className="nav-link" to="/resume">
                     Resume
                     <span></span>
                     <span></span>
@@ -91,7 +91,7 @@ export const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item mx-3">
-                  <Link className="nav-link" to="/#projects">
+                  <Link className="nav-link" to="/contact">
                     Contact
                     <span></span>
                     <span></span>

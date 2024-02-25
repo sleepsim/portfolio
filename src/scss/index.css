@@ -171,7 +171,7 @@
 .hover-1 .hover-overlay {
   width: 95%;
   position: absolute;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   transition: all 0.6s;
 }
 .hover-1:hover .hover-overlay {
@@ -374,6 +374,14 @@
 }
 .navigation-animate .orange:hover span {
   background: var(--orange-accent);
+}
+
+.orange-link-hover {
+  color: white;
+  transition: 1s;
+}
+.orange-link-hover:hover {
+  color: var(--orange-accent);
 }
 
 :root {

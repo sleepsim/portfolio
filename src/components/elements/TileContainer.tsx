@@ -56,7 +56,7 @@ const TileContainer = ({ category }: Props) => {
   return (
     <div className="container p-3">
       <h2 className="mb-3 fs-3 fw-bold text-purple">.{category}-projects</h2>
-      <div className="row justify-content-center no-wrap my-3">
+      <div className="row justify-content-start no-wrap my-3">
         {LoadProjects2(category)}
       </div>
     </div>

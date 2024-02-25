@@ -7,6 +7,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 // Components
 import { Navbar } from "./components/elements/Navbar";
 import { Sidebar } from "./components/elements/Sidebar";
+import { Footer } from "./components/elements/Footer";
 
 // Pages
 import { Home } from "./components/pages/Home";
@@ -28,6 +29,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 }
