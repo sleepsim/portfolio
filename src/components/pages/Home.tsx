@@ -7,7 +7,7 @@ export const Home = () => {
       <Jumbotron />
       <section id="projects">
         <TileContainer category="code" />
-        <TileContainer category="back" />
+        <TileContainer category="design" />
       </section>
     </>
   );

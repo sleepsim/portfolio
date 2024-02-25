@@ -37,9 +37,7 @@ const LoadProject = (input: string | undefined) => {
           <div className="col-6 py-4">
             {/* <h1 className="fw-bold text-orange">{project.title}</h1> */}
             <h2 className="fw-bold">Overview</h2>
-            <p>
-              <span className="fw-bold">Team:</span> Solo
-            </p>
+            <p>{/* <span className="fw-bold">Team:</span> Solo */}</p>
             <p>
               <span className="fw-bold">Languages: </span>
               {project.lang}
