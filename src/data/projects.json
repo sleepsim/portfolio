@@ -48,15 +48,15 @@
     "featured": true
   },
   {
-    "id": "",
-    "title": "design1",
-    "lang": "Kotlin + Java",
-    "description": "This is the description of project 3.",
-    "image": "quizlet.png",
-    "github": "https://github.com/user/project3",
-    "youtube": "",
-    "category": "game",
-    "overview": "test",
+    "id": "moviesort",
+    "title": "Movie Dataset Cleaning",
+    "lang": "Javascript, Vegalite, D3",
+    "description": "Data processing and visualization",
+    "image": "moviesort.png",
+    "github": "https://observablehq.com/d/324948f53bde55e0",
+    "youtube": "https://www.youtube.com/embed/ytJjvZeQSWI?si=jHetW4Iu3ZfC__ti",
+    "category": "code",
+    "overview": "An Observable notebook using JavaScript, VegaLite and D3 to analyze and clean two datasets, each containing ~2000 movies. Using JS, I  processed and cleaned the datasets to ensure accuracy and consistency. Subsequently, I employed VegaLite, D3 to visualize and present the insights derived from the cleaned datasets.",
     "featured": false
   },
   {
@@ -67,7 +67,7 @@
     "image": "quizlet.png",
     "github": "https://github.com/user/project3",
     "youtube": "",
-    "category": "game",
+    "category": "design",
     "overview": "test",
     "featured": true
   },
@@ -79,7 +79,7 @@
     "image": "quizlet.png",
     "github": "https://github.com/user/project3",
     "youtube": "",
-    "category": "game",
+    "category": "design",
     "overview": "test",
     "featured": true
   }
