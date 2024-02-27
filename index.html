@@ -16,10 +16,18 @@
         delete sessionStorage.redirect;
         if (redirect && redirect != location.href) {
           history.replaceState(null, null, redirect);
+          loadScript("/src/main.tsx");
         } else {
+          loadScript("/src/main.tsx");
+        }
+
+        function loadScript(src) {
+          var script = document.createElement("script");
+          script.type = "module";
+          script.src = src;
+          document.body.appendChild(script);
         }
       })();
     </script>
-    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
