@@ -48,8 +48,8 @@
     "featured": true
   },
   {
-    "id": "moviesort",
-    "title": "Movie Dataset Cleaning",
+    "id": "movieviz",
+    "title": "Movie Dataset Visualization",
     "lang": "Javascript, Vegalite, D3",
     "description": "Data processing and visualization",
     "image": "moviesort.png",
@@ -60,22 +60,22 @@
     "featured": false
   },
   {
-    "id": "placehold",
-    "title": "placeholder",
-    "lang": "placeholder",
-    "description": "placeholder.",
-    "image": "placeholder.jpg",
-    "github": "https://github.com/sleepsim",
-    "youtube": "",
+    "id": "gardenexchange",
+    "title": "Garden Exchange App Concept",
+    "lang": "Figma",
+    "description": "Original App Concept",
+    "image": "gardenexchange.png",
+    "github": "N/A",
+    "youtube": "https://www.youtube.com/embed/0a5eak8oyaw?si=3qKstTum_EwObO4C",
     "category": "design",
-    "overview": "test",
+    "overview": "For the final project of my interface design class, we were tasked with creating a feasible app concept. My group came up with Garden exchange, it is a platform that enables gardeners to connect, share, and exchange their homegrown produce, flowers, plants, and other garden-related items. ",
     "featured": true
   },
   {
     "id": "placehold2",
     "title": "placeholder",
     "lang": "placeholder",
-    "description": "placeholder.",
+    "description": "placeholder",
     "image": "placeholder.jpg",
     "github": "https://github.com/sleepsim",
     "youtube": "",
