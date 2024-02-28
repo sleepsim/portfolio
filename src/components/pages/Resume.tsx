@@ -9,10 +9,7 @@ export const Resume = () => {
         <p className="fw-bold text-purple fs-1">and previous work experience</p>
         <p className="mb-5">
           pdf version available:{" "}
-          <a
-            href="../src/assets/resume-redacted.pdf"
-            className="orange-link-hover"
-          >
+          <a href="/assets/resume-redacted.pdf" className="orange-link-hover">
             here
           </a>
         </p>
