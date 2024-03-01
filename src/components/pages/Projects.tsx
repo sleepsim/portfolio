@@ -38,7 +38,7 @@ const LoadProject = (input: string | undefined) => {
             <h2 className="fw-bold">Overview</h2>
             <p>{/* <span className="fw-bold">Team:</span> Solo */}</p>
             <p>
-              <span className="fw-bold">Languages: </span>
+              <span className="fw-bold">Technologies: </span>
               {project.lang}
             </p>
             <p className="fw-bold">Overview:</p>

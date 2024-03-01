@@ -73,14 +73,14 @@
   },
   {
     "id": "kijijifeature",
-    "title": "Kijiji Feature Design",
-    "lang": "placeholder",
-    "description": "placeholder",
-    "image": "placeholder.jpg",
+    "title": "Kijiji Pickup - Feature Design Concept",
+    "lang": "Figma",
+    "description": "A concept of a possible feature for the Kijiji mobile app",
+    "image": "kijiji/title.png",
     "github": "https://github.com/sleepsim",
     "youtube": "slideshow",
     "category": "design",
-    "overview": "test",
+    "overview": "A mockup concept for a possible feature for the kijiji app. The feature allows users to send offers and directly pay for the item if the seller accepts the offer. The seller and buyer can then dropoff/pickup items at select pickup locations (like storage facilities). The main aim of the feature is to make buying and selling easier, sellers can drop off the item at the storage facility and the buyer can pickup items at their own convenience.",
     "featured": true
   }
 ]
