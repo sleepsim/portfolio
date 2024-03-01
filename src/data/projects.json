@@ -72,13 +72,13 @@
     "featured": true
   },
   {
-    "id": "placehold2",
-    "title": "placeholder",
+    "id": "kijijifeature",
+    "title": "Kijiji Feature Design",
     "lang": "placeholder",
     "description": "placeholder",
     "image": "placeholder.jpg",
     "github": "https://github.com/sleepsim",
-    "youtube": "",
+    "youtube": "slideshow",
     "category": "design",
     "overview": "test",
     "featured": true

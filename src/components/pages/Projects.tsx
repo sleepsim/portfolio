@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import ProjectsJson from "../../data/projects.json";
 import { NotFound } from "./NotFound";
+import { Carousel } from "../elements/Carousel";
 
 let ProjectInfo: {
   id: string;
@@ -62,6 +63,8 @@ const LoadProject = (input: string | undefined) => {
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
               ></iframe>
+            ) : project.youtube.includes("slideshow") ? (
+              <Carousel />
             ) : (
               <img
                 src={project.youtube}

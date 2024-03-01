@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./scss/index.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import "bootstrap/dist/js/bootstrap.js";
 
 // Components
 import { Navbar } from "./components/elements/Navbar";
