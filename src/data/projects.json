@@ -6,7 +6,7 @@
     "description": "PHP website with MySQL database",
     "image": "badmintonInfo.png",
     "github": "https://github.com/sleepsim/badmintonInfo",
-    "youtube": "https://www.youtube.com/embed/4HSiGyOfmzY?si=vI-X_W6mtjvtr2xi",
+    "youtube": "https://www.youtube.com/embed/4HSiGyOfmzY",
     "category": "code",
     "overview": "badmintonInfo is a dynamic website that showcases badminton gear and professional players that use them. The site utilized XAMPP for local development environment, PHP for server-side scripting, and MySQL for database management. UI wise, this was the first time I designed a site using Bootstrap for clean, easy, and reusable code.",
     "featured": true
@@ -24,15 +24,15 @@
     "featured": true
   },
   {
-    "id": "shortsconverter",
-    "title": "YouTube shorts converter",
-    "lang": "JavaScript",
-    "description": "converts shorts to full video player",
-    "image": "shortsconvert.png",
-    "github": "https://github.com/sleepsim/yt-shortconverter",
-    "youtube": "/assets/shortsconvert.gif",
+    "id": "recipesite",
+    "title": "Simple Recipe Website",
+    "lang": "PHP, Bootstrap",
+    "description": "simple PHP powered recipe site",
+    "image": "recipesite.png",
+    "github": "https://github.com/sleepsim/Simple-Recipe-Site",
+    "youtube": "https://www.youtube.com/embed/M5k_28QsfO8",
     "category": "code",
-    "overview": "Sometime around last year, YouTube introduced YouTube Shorts, a vertical video format that’s supposed to emulate popular video sites like Tik-Tok and Instagram Reels. The problem was that it was turning some short videos that were not meant to be shorts into YT Shorts. YT shorts gives you no control over playback, sound is only a toggle, and the video is fit into a vertical frame which was super annoying so I made this extension which I still use today",
+    "overview": "A simple recipe website powered by PHP that stores all info in a text file, Users are able to input various details like ingredients, prep time, cooking time, etc. All recipes are loaded and shown on the front page",
     "featured": true
   },
   {
@@ -58,6 +58,18 @@
     "category": "code",
     "overview": "An Observable notebook using JavaScript, VegaLite and D3 to analyze and clean two datasets, each containing ~2000 movies. Using JS, I  processed and cleaned the datasets to ensure accuracy and consistency. Subsequently, I employed VegaLite, D3 to visualize and present the insights derived from the cleaned datasets.",
     "featured": false
+  },
+  {
+    "id": "shortsconverter",
+    "title": "YouTube shorts converter",
+    "lang": "JavaScript",
+    "description": "converts shorts to full video player",
+    "image": "shortsconvert.png",
+    "github": "https://github.com/sleepsim/yt-shortconverter",
+    "youtube": "/assets/shortsconvert.gif",
+    "category": "code",
+    "overview": "Sometime around last year, YouTube introduced YouTube Shorts, a vertical video format that’s supposed to emulate popular video sites like Tik-Tok and Instagram Reels. The problem was that it was turning some short videos that were not meant to be shorts into YT Shorts. YT shorts gives you no control over playback, sound is only a toggle, and the video is fit into a vertical frame which was super annoying so I made this extension which I still use today",
+    "featured": true
   },
   {
     "id": "gardenexchange",
