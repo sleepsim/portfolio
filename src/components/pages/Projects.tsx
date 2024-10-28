@@ -99,8 +99,10 @@ const CheckProject = (name: string | undefined) => {
   }
 };
 
-export const Projects = () => {
+const Projects = () => {
   const { id } = useParams();
 
   return <>{CheckProject(id)}</>;
 };
+
+export { Projects };

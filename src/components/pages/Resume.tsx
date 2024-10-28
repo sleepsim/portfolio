@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export const Resume = () => {
+const Resume = () => {
   return (
     <div className="p-3">
       <div className="row py-5">
@@ -100,3 +100,5 @@ export const Resume = () => {
     </div>
   );
 };
+
+export { Resume };

@@ -1,4 +1,4 @@
-export const About = () => {
+const About = () => {
   return (
     <div className="p-3 rounded-3 container sm">
       <div className="row">
@@ -52,3 +52,5 @@ export const About = () => {
     </div>
   );
 };
+
+export { About };

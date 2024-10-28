@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <div className="p-3">
       <div className="row py-5">
@@ -35,3 +35,5 @@ export const Contact = () => {
     </div>
   );
 };
+
+export { Contact };
