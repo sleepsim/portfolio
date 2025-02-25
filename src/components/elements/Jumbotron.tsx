@@ -28,11 +28,13 @@ export const Jumbotron = () => {
           <div className="col-8 py-5">
             <p className="fs-5 mb-0">hello I'm</p>
             <h1 className="fw-bold text-orange">pocholo andres</h1>
-            <h1 className="fw-bold text-purple">web dev student</h1>
+            <h1 className="fw-bold text-purple">
+              BSc. Interactive Art and Technology
+            </h1>
             <p className="col-md-8 fs-6 text-w mb-4">
-              an aspiring web developer currently studying at SFU's Interactive
-              Arts and Technology Program. My Focus is on front-end development,
-              with additional experience in UX/UI, and Game design
+              fresh grad at SFU's Interactive Arts and Technology Program with 3
+              years of professional IT Experience. My Focus is on front-end
+              development, with additional experience in UX/UI, and Game Design.
             </p>
             <div className="animated-button-purple">
               <a href="#projects">

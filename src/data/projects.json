@@ -1,17 +1,5 @@
 [
   {
-    "id": "coincounter",
-    "title": "Coin counter AI application",
-    "lang": "Python",
-    "description": "ML AI for coin detection/counting",
-    "image": "badmintonInfo.png",
-    "github": "https://github.com/sleepsim/badmintonInfo",
-    "youtube": "https://www.youtube.com/embed/drTHKLt-0cU?si=2nJjE7h57DWYMtud",
-    "category": "code",
-    "overview": "badmintonInfo is a dynamic website that showcases badminton gear and professional players that use them. The site utilized XAMPP for local development environment, PHP for server-side scripting, and MySQL for database management. UI wise, this was the first time I designed a site using Bootstrap for clean, easy, and reusable code.",
-    "featured": true 
-  },
-  {
     "id": "badmintoninfo",
     "title": "badmintonInfo website",
     "lang": "XAMPP Stack, (PHP, MySQL)",
@@ -24,6 +12,18 @@
     "featured": true
   },
   {
+    "id": "coincounter",
+    "title": "Coin Counter AI application",
+    "lang": "Python",
+    "description": "ML AI for coin detection/counting",
+    "image": "coincounter.jpg",
+    "github": "https://github.com/sleepsim/481-Final",
+    "youtube": "https://www.youtube.com/embed/drTHKLt-0cU?si=2nJjE7h57DWYMtud",
+    "category": "code",
+    "overview": " under construction",
+    "featured": true 
+  },
+  {
     "id": "portfolioweb",
     "title": "Portfolio websites",
     "lang": "React (Vite), TypeScript, Bootstrap",
@@ -34,6 +34,17 @@
     "category": "code",
     "overview": "This website is supposed to be the culmination of everything I've learned so far, I made it using React (Vite) and Bootstrap. This website is a remake and upgrade of my old website that I made during reading break in an effort to learn React. My old website can be acessed through https://sleepsim.github.io/portfolio-old/",
     "featured": true
+  },
+  {
+    "id": "bearthdayblues",
+    "title": "Bearthday Blues VR Game",
+    "lang": "C#",
+    "description": "VR Game developed in Unity",
+    "image": "bearthdaybluesposter.png",
+    "github": "https://445project.pandres.ca/",
+    "youtube": "/assets/bearthdaybluesposter.png",
+    "category": "code",
+    "overview": "underconstruction project site here: https://445project.pandres.ca/"
   },
   {
     "id": "recipesite",
@@ -53,23 +64,11 @@
     "lang": "C#",
     "description": "3D Sailing game developed in unity",
     "image": "badmintonInfo.png",
-    "github": "https://github.com/sleepsim/badmintonInfo",
-    "youtube": "https://www.youtube.com/embed/drTHKLt-0cU?si=2nJjE7h57DWYMtud",
+    "github": "https://github.com/sleepsim/deaths-voyage",
+    "youtube": "https://www.youtube.com/embed/n_N2wxVFcyg",
     "category": "code",
-    "overview": "badmintonInfo is a dynamic website that showcases badminton gear and professional players that use them. The site utilized XAMPP for local development environment, PHP for server-side scripting, and MySQL for database management. UI wise, this was the first time I designed a site using Bootstrap for clean, easy, and reusable code.",
+    "overview": "under construction",
     "featured": true 
-  },
-  {
-    "id": "shortsconverter",
-    "title": "YouTube shorts converter",
-    "lang": "JavaScript",
-    "description": "converts shorts to full video player",
-    "image": "shortsconvert.png",
-    "github": "https://github.com/sleepsim/yt-shortconverter",
-    "youtube": "/assets/shortsconvert.gif",
-    "category": "code",
-    "overview": "Sometime around last year, YouTube introduced YouTube Shorts, a vertical video format that’s supposed to emulate popular video sites like Tik-Tok and Instagram Reels. The problem was that it was turning some short videos that were not meant to be shorts into YT Shorts. YT shorts gives you no control over playback, sound is only a toggle, and the video is fit into a vertical frame which was super annoying so I made this extension which I still use today",
-    "featured": true
   },
   {
     "id": "quizlet",
@@ -117,6 +116,18 @@
     "youtube": "https://www.youtube.com/embed/0a5eak8oyaw?si=3qKstTum_EwObO4C",
     "category": "design",
     "overview": "For the final project of my interface design class, we were tasked with creating a feasible app concept. My group came up with Garden exchange, it is a platform that enables gardeners to connect, share, and exchange their homegrown produce, flowers, plants, and other garden-related items. ",
+    "featured": true
+  },
+  {
+    "id": "ticketmaster",
+    "title": "TicketMaster UX Re-design",
+    "lang": "Figma",
+    "description": "UX/UI Fixes for Ticketmaster website",
+    "image": "kijiji/title.png",
+    "github": "https://github.com/sleepsim",
+    "youtube": "slideshow",
+    "category": "design",
+    "overview": "under construction",
     "featured": true
   },
   {

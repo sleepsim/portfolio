@@ -8,7 +8,7 @@ const Home = () => {
       <section id="projects">
         <TileContainer category="code" />
         <TileContainer category="design" />
-        <TileContainer category="game-dev" />
+        {/* <TileContainer category="game-dev" /> */}
       </section>
     </>
   );
