@@ -15,12 +15,12 @@
     "id": "coincounter",
     "title": "Coin Counter AI application",
     "lang": "Python",
-    "description": "ML AI for coin detection/counting",
-    "image": "coincounter.jpg",
+    "description": "Machine Learning Computer Vision AI",
+    "image": "coin.jpg",
     "github": "https://github.com/sleepsim/481-Final",
     "youtube": "https://www.youtube.com/embed/drTHKLt-0cU?si=2nJjE7h57DWYMtud",
     "category": "code",
-    "overview": " under construction",
+    "overview": "This application allows you to take multiple images of Canadian coins and automatically calculates their total value. I trained a YOLO V3 model with over 1,400 images to accurately detect various coin denominations. Additionally, I developed a standalone Windows application using Python's Tkinter toolkit, making it easy to use on your computer.",
     "featured": true 
   },
   {
@@ -38,13 +38,14 @@
   {
     "id": "bearthdayblues",
     "title": "Bearthday Blues VR Game",
-    "lang": "C#",
+    "lang": "C#, Unity VR",
     "description": "VR Game developed in Unity",
-    "image": "bearthdaybluesposter.png",
+    "image": "bearthdaybluespostercrop.png",
     "github": "https://445project.pandres.ca/",
-    "youtube": "/assets/bearthdaybluesposter.png",
+    "youtube": "https://www.youtube.com/embed/ifrtM_EBQbQ",
     "category": "code",
-    "overview": "underconstruction project site here: https://445project.pandres.ca/"
+    "overview": "Bearthday Blues is a game that puts you in the shoes of a child and their toys. Experience both perspectives as the child controlling the environment and as a toy experiencing the changes in the environment as your own reality. Traverse through a dynamic environment filled with toys and make your way through obstacles by manipulating objects. Learn more on the full project site below",
+    "featured" : true
   },
   {
     "id": "recipesite",
@@ -61,13 +62,13 @@
   {
     "id": "deathsvoyage",
     "title": "Death's Voyage",
-    "lang": "C#",
+    "lang": "C#, Unity",
     "description": "3D Sailing game developed in unity",
-    "image": "badmintonInfo.png",
+    "image": "deathvoyage.png",
     "github": "https://github.com/sleepsim/deaths-voyage",
     "youtube": "https://www.youtube.com/embed/n_N2wxVFcyg",
     "category": "code",
-    "overview": "under construction",
+    "overview": "Death's Voyage 3rd person exploration and combat game where the player controls a pirate ship. The game consists of 3 stages where the player completes quests to exit the underworld. I designed and developed the gameplay, mechanics, physics and the world layout in Unity.",
     "featured": true 
   },
   {
@@ -123,7 +124,7 @@
     "title": "TicketMaster UX Re-design",
     "lang": "Figma",
     "description": "UX/UI Fixes for Ticketmaster website",
-    "image": "kijiji/title.png",
+    "image": "ticketmaster2.png",
     "github": "https://github.com/sleepsim",
     "youtube": "slideshow",
     "category": "design",

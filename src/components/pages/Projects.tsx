@@ -43,12 +43,30 @@ const LoadProject = (input: string | undefined) => {
             </p>
             <p className="fw-bold">Overview:</p>
             <p>{project.overview}</p>
-            <p className="fw-bold">
-              Github Repo:{" "}
-              <a href={project.github} className="fw-normal orange-link-hover">
-                {project.github}
-              </a>
-            </p>
+
+            {project.github ? (
+              project.github.includes("github") ? (
+                <p className="fw-bold">
+                  GitHub Repo:{" "}
+                  <a
+                    href={project.github}
+                    className="fw-normal orange-link-hover"
+                  >
+                    {project.github}
+                  </a>
+                </p>
+              ) : (
+                <p className="fw-bold">
+                  Site Link:{" "}
+                  <a
+                    href={project.github}
+                    className="fw-normal orange-link-hover"
+                  >
+                    {project.github}
+                  </a>
+                </p>
+              )
+            ) : null}
           </div>
         </div>
 
