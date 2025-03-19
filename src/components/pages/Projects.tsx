@@ -71,18 +71,23 @@ const LoadProject = (input: string | undefined) => {
         </div>
 
         <div className="container d-flex flex-column align-items-center py-5">
-          <p className="fw-bold fs-2 text-purple">Video Demo</p>
           {project.youtube ? (
             project.youtube.includes("youtube") ? (
-              <iframe
-                width="800"
-                height="450"
-                src={project.youtube}
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-              ></iframe>
+              <div>
+                <p className="fw-bold fs-2 text-purple">Video Demo</p>
+                <iframe
+                  width="800"
+                  height="450"
+                  src={project.youtube}
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+                ></iframe>
+              </div>
             ) : project.youtube.includes("slideshow") ? (
-              <Carousel />
+              <div>
+                <p className="fw-bold fs-2 text-purple">Image Slideshow</p>
+                <Carousel imageSet={project.youtube} />
+              </div>
             ) : (
               <img
                 src={project.youtube}

@@ -1,18 +1,38 @@
-export const Carousel = () => {
+interface Props {
+  imageSet: string;
+}
+
+export const Carousel = ({ imageSet }: { imageSet: string }) => {
   return (
     <div id="carouselExample" className="carousel slide">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="/assets/kijiji/1.png" className="d-block w-100" alt="..." />
+          <img
+            src={`/assets/${imageSet}/1.png`}
+            className="d-block w-100"
+            alt="..."
+          />
         </div>
         <div className="carousel-item">
-          <img src="/assets/kijiji/2.png" className="d-block w-100" alt="..." />
+          <img
+            src={`/assets/${imageSet}/2.png`}
+            className="d-block w-100"
+            alt="..."
+          />
         </div>
         <div className="carousel-item">
-          <img src="/assets/kijiji/3.png" className="d-block w-100" alt="..." />
+          <img
+            src={`/assets/${imageSet}/3.png`}
+            className="d-block w-100"
+            alt="..."
+          />
         </div>
         <div className="carousel-item">
-          <img src="/assets/kijiji/4.png" className="d-block w-100" alt="..." />
+          <img
+            src={`/assets/${imageSet}/4.png`}
+            className="d-block w-100"
+            alt="..."
+          />
         </div>
       </div>
 
